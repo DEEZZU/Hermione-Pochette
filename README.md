@@ -1,5 +1,5 @@
 # Hermione_Pochette
-Ducs Coding Club conduct amazing sessions on various topics. Here's a repo containing session notes for those who want to get a gist of what happened !
+Ducs Coding Club conducts amazing sessions on various topics. Here's a repo containing session notes for those who want to get a gist of what happens !
 
 * Sessions Conducted By Far :
   * C++ : an Overview
