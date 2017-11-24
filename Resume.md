@@ -74,7 +74,7 @@ _Combination of any 2 will work for the resume_
 	 
          If you have scored really well , and got a really good rank , you can may be mention it in achievements or in brackets  
 
-3._**SITE PROJECTS :**_
+3. _**SITE PROJECTS :**_
 
     	-> mention Tech Projects only 
 
@@ -93,7 +93,7 @@ _Combination of any 2 will work for the resume_
 
 ### Coming to the other pointers :
 
-_**SKILLS:**_
+4. _**SKILLS:**_
 
     	-> dont mention progress and years of your skill 
 
@@ -107,7 +107,7 @@ _**SKILLS:**_
 
     	-> dont mention more, but precise and the ones you KNOW`
 
-_**ACHIEVEMENTS / COURSES / CERTIFICATION :**_
+5. _**ACHIEVEMENTS / COURSES / CERTIFICATION :**_
 
     	-> MENTION THE SIGNIFICANT ONES FIRST 
 
