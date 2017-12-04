@@ -22,7 +22,7 @@
 ### Coming to the main part :
 ## Where do we start ??
 
-1. You can have a look on templates provided on Google docs (docs.google.com). 
+1. You can have a look on templates provided on Google docs (https://docs.google.com). 
 2. You can design a template similar or just use one of them (Microsoft Office / Google Docs).
 3. Resume should be short - 1 page is sufficient : Crisp and Clear ,"WRITE LESS THINK MORE"
 
@@ -121,11 +121,10 @@ _Combination of any two will work for the resume_
 
 ### What about personal details ?
 
-    	Your name , Phone Number and Email Id are enough.
+	Your name , Phone Number and Email Id are enough.
 	Note (On Email ID): Avoid stupid looking emails like smarthacker@gamil.com or like that. 
 			    Maintain a professional looking Email ID for professional purposes.
-
-    	Your bio might include links to GitHub/ StackOverflow etc. or Medium Blog/ any blogging site.
+	Your bio might include links to GitHub/ StackOverflow etc. or Medium Blog/ any blogging site.
 
 
 Phewww…
