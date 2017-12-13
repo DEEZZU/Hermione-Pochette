@@ -1,5 +1,7 @@
-GitHub :
-version control system 
+# GitHub :
+##### A Version Control System 
+
+Basic History : 
 linus torvalds 
 
 repo- folder much similar to g drive
