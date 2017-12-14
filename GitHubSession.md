@@ -92,7 +92,7 @@ While developing the Linux Project ,version controller was required for managing
 
 ----
 
-##### Two Special files : 
+#### Two Special files : 
         
         * MarkDown :.md:
                 ** ReadME.md : you should always initialize a repo with a read me, which briefly and beautifully describes your repo ! 
@@ -119,7 +119,7 @@ While developing the Linux Project ,version controller was required for managing
                 https://services.github.com
                 make a cheat sheet in repo : how i run my program
         
-        ----
+        ----------------------------------------------------------------------------------------------------
         
         %%% Grp Project %%% 
        
@@ -139,27 +139,25 @@ While developing the Linux Project ,version controller was required for managing
                 X merges if Ok
                 }
 
-        ----
+        ---------------------------------------------------------------------------------------------------
         
         %%% Some Courses on GitHub or Help Available online %%%
         
-                https://help.github.com
-                https://in.udacity.com/course/how-to-use-git-and-github--ud775
-                https://www.codecademy.com/learn/learn-git
+                (https://help.github.com)
+                (https://in.udacity.com/course/how-to-use-git-and-github--ud775)
+                (https://www.codecademy.com/learn/learn-git)
 
+----
 
-Working :
+#### Working :
 
-local pc ->(commit)-> central version control system ->(push)->GitHub server 
-commit -> made a change in local given to vcs
-push -> to server 
+        1. Clone 
+        2. Work in the Cloned Folder 
+        3. local pc ->(commit)-> central version control system ->(push)->GitHub server 
+                commit -> made a change in local given to vcs
+                push -> to server
+        4. Done!
 
-
-
-
-6 -7 hrs git course 
-learn git
-from code academy
 
 
 
