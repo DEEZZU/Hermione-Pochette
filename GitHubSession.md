@@ -143,7 +143,7 @@ While developing the Linux Project ,version controller was required for managing
         
         %%% Some Courses on GitHub or Help Available online %%%
         
-                (https://help.github.com)
+               [GitHub Help](https://help.github.com)
                 (https://in.udacity.com/course/how-to-use-git-and-github--ud775)
                 (https://www.codecademy.com/learn/learn-git)
 
