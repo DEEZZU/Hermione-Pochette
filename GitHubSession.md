@@ -90,38 +90,62 @@ While developing the Linux Project ,version controller was required for managing
 
 ###### Main Difference between : push is reflected in the GitHub Account and a commit is only intimation for the GitHub Version Controller to save the changes , Several Commit can be pushed altogether.
 
+----
 
 ##### Two Special files : 
-
-readme.md : md :
--> mark down lang
--> gives an info abt your repo
--> an md file is much similar to decorating your file 
-good eg : alamofire 
-{
-markdown cheat sheet
-guides.github.com
-}
-
-.gitignore :
-->when our code is built , eg besides .cpp  no other file should be uploaded
--> some imp files can be saved on local copy but wont be pushed to GitHub
-they are “ignored” bu GitHub
+        
+        * MarkDown :.md:
+                ** ReadME.md : you should always initialize a repo with a read me, which briefly and beautifully describes your repo ! 
+                
+        -> MD files are written in : mark down lang
+        -> gives an info abt your repo/or whatever other description (eg: a cheatsheet) you want to add
+        -> an md file is much similar to decorating your file 
+        -> good eg : alamofire 
+        -> use a markdown cheat sheet 
+        ->  you can search : https://guides.github.com
 
 
-%%% GitHub cheat sheet %%%
+        * .gitignore :
+        -> when our code is built , besides .xyz (Let xyz- be the extension of the file ) no other file should be uploaded
+        -> you can utilize the feature so as to protect some imp files which can be saved on clone but wont be pushed to GitHub
+        -> they are “ignored” by GitHub
 
-https://services.github.com
- make a cheat sheet in repo 
-how i run my program
+----
 
-{
-python :
+#### Tips:
 
-pip allows u to install public libraries
-pip —version
-python —version
-}
+        %%% GitHub cheat sheet %%%
+        
+                https://services.github.com
+                make a cheat sheet in repo : how i run my program
+        
+        ----
+        
+        %%% Grp Project %%% 
+       
+        Let Three people X, Y, Z be working together on a project.
+        X : Creates a repo 
+        
+                Method 1 :
+                Y and Z both push to this same repo
+
+                Method 2:
+                Y and Z perform fork 
+                {
+                Fork
+                Clone that repo in your local pc 
+                Work
+                Pull Request
+                X merges if Ok
+                }
+
+        ----
+        
+        %%% Some Courses on GitHub or Help Available online %%%
+        
+                https://help.github.com
+                https://in.udacity.com/course/how-to-use-git-and-github--ud775
+                https://www.codecademy.com/learn/learn-git
 
 
 Working :
@@ -130,32 +154,13 @@ local pc ->(commit)-> central version control system ->(push)->GitHub server
 commit -> made a change in local given to vcs
 push -> to server 
 
-Grp Project :
 
-{ NILOY AVIRAL AYUSH }
-AVIRAL : Creates a repo 
-method 1 :
-nil and ayush both push to this same repo
-
-meths 2:
-nilu and aayush perform fork 
-{
-Fork :
-i want your folder in my repo collection
-clone that repo in your local pc 
-to work
-}
 
 
 6 -7 hrs git course 
 learn git
 from code academy
 
-https://help.github.com
-
-https://in.udacity.com/course/how-to-use-git-and-github--ud775
-
-https://www.codecademy.com/learn/learn-git
 
 
 
