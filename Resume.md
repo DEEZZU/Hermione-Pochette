@@ -1,33 +1,40 @@
-# POINTERS FOR YOUR RESUME & HH :
----------------------------------
-**Here are some important website and links that you should be knowing:**
 
-**1. Hackathon Hackers (Largest Techie Group on Facebook)**
+### Pointers for your Resume 
 
-**2. Resume Building Websites : http://creddle.io**
+-----
 
-**3. Feel free to join our DUCS Coding Club! :) Though it's a closed group!**
+Session By : @Aviral190694
 
-**4. You can write articles / blogs or post on medium.com**
+----
 
-**5. producthunt.com  : Shares the news of new products and you can share as well.**
+#### **Here are some important website and links that you should be knowing:**
 
-**6. GitHub.com: Just to keep track of your daily code and yess of course, for team projects!**
+#### **1. Hackathon Hackers (Largest Techie Group on Facebook)**
 
-**7. You can have an account on StackOverflow.com or some other site where you code daily and practice new questions : geeksforgeeks.com , sanfoundary.com (for MCQ), leetcode.com , interviewbit.com**
+#### **2. Resume Building Websites : http://creddle.io**
+
+#### **3. Feel free to join our DUCS Coding Club! :) Though it's a closed group!**
+
+#### **4. You can write articles / blogs or post on medium.com**
+
+#### **5. producthunt.com  : Shares the news of new products and you can share as well.**
+
+#### **6. GitHub.com: Just to keep track of your daily code and yess of course, for team projects!**
+
+#### **7. You can have an account on StackOverflow.com or some other site where you code daily and practice new questions : geeksforgeeks.com , sanfoundary.com (for MCQ), leetcode.com , interviewbit.com**
 
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 
-### Coming to the main part :
-## Where do we start ??
+#### Coming to the main part :
+### Where do we start ??
 
 1. You can have a look on templates provided on Google docs (https://docs.google.com). 
 2. You can design a template similar or just use one of them (Microsoft Office / Google Docs).
 3. Resume should be short - 1 page is sufficient : Crisp and Clear ,"WRITE LESS THINK MORE"
 
 
->#### IT IS VERY IMPORTANT TO REALIZE THAT WHAT YOU WRITE IS ACCURATE
+>##### IT IS VERY IMPORTANT TO REALIZE THAT WHAT YOU WRITE IS ACCURATE
 >
 > { 
 >	
@@ -41,7 +48,7 @@
 
 ---------------------------------------------------------------
 
-## What should your resume contain ??
+### What should your resume contain ??
 
 
 **3 MAIN THINGS :**
@@ -52,7 +59,7 @@
 
 _Combination of any two will work for the resume_
 
-#### Let's talk about the three main points one by one :
+##### Let's talk about the three main points one by one :
 
 1. _**EXPERIENCE :**_
 
