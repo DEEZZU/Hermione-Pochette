@@ -18,14 +18,40 @@ While developing the Linux Project , needed a version controller for managing th
 
 #### Some Features :
 
-##### * Repository :
+##### Repository :
         
         * similar to a folder ; assume it to be just like a drive on your PC.
         * you must always provide description : brief : for your repo
         * Controls possible : public/private (as the name suggest public is visible to all and Private is visible to only us.)
         * Private repos are possible 
           ** after paying
-          ** For students: You can have GitHub Student Developer Pack (Use your Id card and the subsrciption last for 2 years. 
+          ** For students: You can have GitHub Student Developer Pack (Use your Id card and the subsrciption last for 2 years.
+          ** Link : https://education.github.com/pack
+          
+##### Fork :
+
+        * Its functionality is similar to Copying.
+        * Fork the projects you find useful for yourself and the repo would appear in your repo list for wheneer you might want to have a look.
+        
+##### Branch :
+
+        * branches as the name suggest .. they are part of the same tree/ project 
+        * you can have a main branch containing the original code and create new branches to add new features with newer features
+        * for synching the same project 
+        * introducing changes to some official code 
+        * Source Tree Jargon : checkout : means you are working on this branch 
+
+##### Pull Request :
+
+        * This is the feature which allows us to point out changes to a project , we can "pull a request" in someone's or our repo to suggest a change.
+        * Pull Request can be created by two methods: 
+               ** Using Fork :
+               Basically you can perform a fork , and the repo (someone else's) appear in your repo list 
+               You now can generate changes in that repo and click on the pull request button to suggest the owner some changes.                
+               ** Using Branch :
+               This is for your own use , create branches of your own repo , once the new features added are compatible and fully final you can pull a reuqest from the new branch on the master branch , to "merge"(we will discuss this how) the changes .
+               
+               
 
 Working :
 
@@ -108,19 +134,10 @@ to work
 }
 
 
-Branch :
-
-for synching the same project 
-introducing changes to some official code 
-checkout : means you are working on that particular branch 
-
-
 rebase 
 merge
-branch 
 push 
-pull request
-fork
+
 clone
 
 6 -7 hrs git course 
