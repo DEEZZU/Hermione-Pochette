@@ -1,5 +1,7 @@
 # GitHub 
-#### A Version Control System 
+#### A Version Control System  :octocat:
+
+Session By : @Aviral190694
 
 ----
 
@@ -143,7 +145,7 @@ While developing the Linux Project ,version controller was required for managing
         
         %%% Some Courses on GitHub or Help Available online %%%
         
-               [GitHub Help](https://help.github.com)
+                (https://help.github.com)
                 (https://in.udacity.com/course/how-to-use-git-and-github--ud775)
                 (https://www.codecademy.com/learn/learn-git)
 
@@ -158,7 +160,19 @@ While developing the Linux Project ,version controller was required for managing
                 push -> to server
         4. Done!
 
+----
 
+#### Links :
 
+[Student Pack](https://education.github.com/pack)
 
+[GitHub Guides](https://guides.github.com)
+
+[GitHub Services](https://services.github.com)
+
+[GitHub Help](https://help.github.com)
+
+[Udacity GitHub Course](https://in.udacity.com/course/how-to-use-git-and-github--ud775)
+
+[Code Academy GitHub Course](https://www.codecademy.com/learn/learn-git)
 
