@@ -1,4 +1,4 @@
-# GitHub :
+# GitHub 
 #### A Version Control System 
 
 ----
@@ -16,14 +16,16 @@ While developing the Linux Project , needed a version controller for managing th
 
 -----
 
-##### Some Features :
-repo- folder much similar to g drive
+#### Some Features :
 
-public
-and private control on repo 
-give a desc 
-u can get private  to free -> GitHub student dev pack -> id card -> 2 yr subscription
-
+##### * Repository :
+        
+        * similar to a folder ; assume it to be just like a drive on your PC.
+        * you must always provide description : brief : for your repo
+        * Controls possible : public/private (as the name suggest public is visible to all and Private is visible to only us.)
+        * Private repos are possible 
+          ** after paying
+          ** For students: You can have GitHub Student Developer Pack (Use your Id card and the subsrciption last for 2 years. 
 
 Working :
 
