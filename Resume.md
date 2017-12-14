@@ -1,7 +1,5 @@
 
-### Pointers for your Resume 
-
------
+## Pointers for your Resume 
 
 Session By : @Aviral190694
 
@@ -99,7 +97,7 @@ _Combination of any two will work for the resume_
 
 -------------------------------------------------------------------------
 
-### Coming to the other pointers :
+#### Coming to the other pointers :
 
 4. _**SKILLS:**_
 
@@ -126,7 +124,7 @@ _Combination of any two will work for the resume_
 
 ---------------------------------------------------
 
-### What about personal details ?
+#### What about personal details ?
 
 	Your name , Phone Number and Email Id are enough.
 	Note (On Email ID): Avoid stupid looking emails like smarthacker@gamil.com or like that. 
