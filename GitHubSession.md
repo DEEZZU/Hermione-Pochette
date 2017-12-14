@@ -1,9 +1,22 @@
 # GitHub :
-##### A Version Control System 
+#### A Version Control System 
 
-Basic History : 
-linus torvalds 
+----
 
+##### Basic History : 
+
+Linus Torvalds developed the GIT : the HEART of GitHub Website .
+While developing the Linux Project , needed a version controller for managing the project well!
+
+##### Why GitHub ?
+
+* distributed version control 
+* source code management functionality 
+* provides access control and collaboration features such as bug tracking, feature requests
+
+-----
+
+##### Some Features :
 repo- folder much similar to g drive
 
 public
