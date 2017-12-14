@@ -1,7 +1,12 @@
-# Hermione_Pochette
-DUCS Coding Club conducts amazing sessions on various topics. 
-Worried you might missed something? No worries.
-Here's a repo containing session notes for those who want to get a gist of what happens!
+# Hermione Pochette
+----
+
+##### DUCS Coding Club conducts amazing sessions on various topics. 
+
+ Worried you might missed something? No worries.
+
+ Here's a repo containing session notes for those who want to get a gist of what happens!
+
 
 ## Sessions Conducted So Far :
    * C++ : An Overview
