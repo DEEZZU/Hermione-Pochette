@@ -51,8 +51,13 @@ While developing the Linux Project , needed a version controller for managing th
                ** Using Branch :
                This is for your own use , create branches of your own repo , once the new features added are compatible and fully final you can pull a reuqest from the new branch on the master branch , to "merge"(we will discuss this how) the changes .
                
-               
-
+##### Merge Pull Request :
+        
+        * This is in coalition with Pull Request.
+        * When someone sends in a Pull Request then a 1 appear in the bar above , click there and you can review what changes have been suggested and you can also reject/merge the changes
+        * Merged Changes appear in the repo thereafter.
+        
+              
 Working :
 
 local pc ->(commit)-> central version control system ->(push)->GitHub server 
@@ -81,7 +86,7 @@ they are “ignored” bu GitHub
 
 %%% GitHub cheat sheet %%%
 
-services.github.com
+https://services.github.com
  make a cheat sheet in repo 
 how i run my program
 
@@ -134,8 +139,7 @@ to work
 }
 
 
-rebase 
-merge
+rebase
 push 
 
 clone
@@ -144,6 +148,9 @@ clone
 learn git
 from code academy
 
+https://help.github.com
+https://in.udacity.com/course/how-to-use-git-and-github--ud775
+https://www.codecademy.com/learn/learn-git
 
 
 
