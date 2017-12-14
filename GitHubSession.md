@@ -6,7 +6,7 @@
 ##### Basic History : 
 
 Linus Torvalds developed the GIT : the HEART of GitHub Website .
-While developing the Linux Project , needed a version controller for managing the project well!
+While developing the Linux Project ,version controller was required for managing the project well!
 
 ##### Why GitHub ?
 
@@ -57,16 +57,41 @@ While developing the Linux Project , needed a version controller for managing th
         * When someone sends in a Pull Request then a 1 appear in the bar above , click there and you can review what changes have been suggested and you can also reject/merge the changes
         * Merged Changes appear in the repo thereafter.
         
-              
-Working :
 
-local pc ->(commit)-> central version control system ->(push)->GitHub server 
-commit -> made a change in local given to vcs
-push -> to server 
+----
+
+#### Some Jargons Related to GitHub :
+
+##### Sourcetree/Git Client :
+
+        * these are two software.
+        * you can have either of them ,both are equivalent.
+        * Why to have them ?
+                ** simple answer : you can handle your github from your pc 
+                ** management of your repos is much easier using the software
+
+##### Clone :
+
+        * a local copy of GitHub repo
+        * cloned copy resides on your pc and any changes made can be pushed to / pulled from repo.
+        * you can create repo using terminal : git clone [url]
+        
+
+##### Commit ( in the Source Tree Software ) :
+
+        * made a file in clone -> save this to vcs ( version control system )
+        * commit msg : a desc of what changes i made , 70 to 80 words 
+        * you want to ignore a file while commiting data to GitHub Repo ,in the software, use the three dots to ignore the file to avail the option (this is the case when u forgot have a gitignore file in repo)
+        
+##### Push ( in the Source Tree Software )/A Commit on GitHub Website :
+
+        * to GitHub (the original account) 
+        * it gives an ssh  for your commit
+
+###### Main Difference between : push is reflected in the GitHub Account and a commit is only intimation for the GitHub Version Controller to save the changes , Several Commit can be pushed altogether.
 
 
-Two imp /special files :
-meant for GitHub repo
+##### Two Special files : 
 
 readme.md : md :
 -> mark down lang
@@ -98,29 +123,12 @@ pip —version
 python —version
 }
 
-JARGONS RELATED TO GITHUB :
 
-Sourcetree / Git Client - both are equivalent 
+Working :
 
-Clone :
-a local copy of GitHub repo
-creating repo using terminal :
-git clone [url]
-
-
-
-
-Commit :
-made a file in clone -> save this to vcs 
-commit msg : a desc of what changes i made , 70 to 80 words
-{ use the three dots to ignore the file }
- 
-Push :
-to GitHub 
-it gives an ssh  for your commit
-
- Pull Request :
-
+local pc ->(commit)-> central version control system ->(push)->GitHub server 
+commit -> made a change in local given to vcs
+push -> to server 
 
 Grp Project :
 
@@ -138,11 +146,6 @@ clone that repo in your local pc
 to work
 }
 
-
-rebase
-push 
-
-clone
 
 6 -7 hrs git course 
 learn git
