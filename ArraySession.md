@@ -1,15 +1,55 @@
-Thurday 16 November 2017 
+## Arrays
 
-# Arrays
-data structures and imp :
-organisation off data
-eg lib and and some market of book 
+Session By :  Shagun Aggarwal 
 
-what happens when u say int a
-a memory allocated 
-and u call it a 
+Date : 16 November 2017 
 
-simplest ds: primitive data types
+----
+
+### The Basics 
+
+
+**_What are data structures ? What is the importance of  Data Structures ?_**
+
+```
+Data Structures :
+Used for organisation of data
+
+Importance : 
+Consider and example; we have a library and then there is some market of book ; 
+(assuming all contraints that they have same amount of informationa and etc) ;
+one prefers library just because of the 
+             1. Ease of Search
+             2. Reduced time of Search 
+             3. Availability can be tested faster
+Here, library is a data structure which stores books in a particular order or organisation.
+```
+
+**_What happens when u declare "int a"?_**
+
+```
+
+A Memory gets allocated for the variable a.
+
+Basically, when u declare a variable , u want to reserve a (x amount of) memory which 
+u want to access. Now, it is rather difficult to remember the memory's address so u name it . 
+
+So when u write "int a" , 4 bytes of memory are reserved and whenever u write "a" ,  
+the computer understands that u are talking about that memory.
+
+```
+
+**_Simplest Data Structures_**
+
+```
+
+The primitive data types are the simplest data structures.
+Also known as : Atomic data types. 
+Some of the fixed ones which appear in most languages : int , float/real/double, bool , char etc.
+
+```
+
+----
 
 next comes : arrays
 same data type collection 
