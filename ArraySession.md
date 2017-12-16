@@ -51,14 +51,29 @@ Some of the fixed ones which appear in most languages : int , float/real/double,
 
 ----
 
-next comes : arrays
-same data type collection 
-continuous memory allocation
- 
-use of continuous : random-access 
-indexing starts with 0
-majorly 
-but in r : 1
+### Next Comes :  ARRAY
+
+**_What are Arrays?_**
+
+```
+
+* Collection of Same data type  
+* Continuous memory allocation
+* Best One : Contigous Homogenous Collection of Data Structures 
+
+```
+
+**_Indexing in Array_**
+
+```
+
+Use of Continuous Allocation : it allows random-access. 
+indexing usually starts with 0 (majorly) 
+but exceptions are there (eg in r : 1)
+The indexes increases by +1.
+For algorithms we assume the starting from 1.
+
+```
 
 int * a;
 int arr[4];
