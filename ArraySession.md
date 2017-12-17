@@ -77,26 +77,55 @@ For algorithms we assume the starting from 1.
 
 **_Understanding Size of Array_**
 
-Consider and example:
+Consider an Example:
+
 ```c++
+
 int * a;
 int arr[4];
 
-sizeof(arr);
-sizeof(a);
+cout << sizeof(arr) ;
+cout << sizeof(a) ;
+
 ```
-give your size preferecence to the interviewer
-answer :
-16
-8
 
-there is  fine line btw array name and pointer 
-though array name is a can refence to first address
+##### Output :
 
-sizeof(*arr);
-sizeof(14);
-// sizeof(‘A’) <- most imp eg
+(Word of caution: give your size preferences to the interviewer)
+ ```
+ 16
+ 8
+ ```
 
+**_Array Name and Pointer_**
+
+There is a fine line between Array Name and Pointer ; though array name can reference to first address; 
+it is not a pointer.
+
+```c++
+cout << sizeof(*arr);
+cout << sizeof(14);
+cout << sizeof(‘A’);      //     <- most imp eg
+```
+
+When you output the above 3 line of Codes , you get :
+
+```
+8 
+4
+1 (or 4)
+```
+
+Output Explaination :
+
+```
+
+Well ! Assuming the size of pointer be 8 bytes , we get an 8 when we print the pointer to the base address of Array.
+Further, 14 is an Integer so we get 4 Bytes for it.
+And the last one would give 1 on Clang (Mac Xcode) for its a Character, BUT it gives 4 Bytes on G++14 for 'A' is an
+Ascii code which is an Integer and hence 4 bytes.
+
+```
 array declaration
  int arr[10]; -> 40 bytes
 
