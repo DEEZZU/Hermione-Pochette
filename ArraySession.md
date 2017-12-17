@@ -75,12 +75,16 @@ For algorithms we assume the starting from 1.
 
 ```
 
+**_Understanding Size of Array_**
+
+Consider and example:
+```c++
 int * a;
 int arr[4];
 
 sizeof(arr);
 sizeof(a);
-
+```
 give your size preferecence to the interviewer
 answer :
 16
