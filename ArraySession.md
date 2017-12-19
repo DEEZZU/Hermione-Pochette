@@ -126,10 +126,24 @@ And the last one would give 1 on Clang (Mac Xcode) for its a Character, BUT it g
 Ascii code which is an Integer and hence 4 bytes.
 
 ```
-array declaration
- int arr[10]; -> 40 bytes
 
-the size should be const
+**_Array Declaration_**
+
+
+* Static Declaration , using constant size :
+
+```c++
+
+base_type_of_array array_name[ array_size_in_constant ] ;     //      -> Size = array_size_in_contant X base_type_of_array
+
+// Following are some valid declarations 
+
+int arr[10];     //     -> 40 bytes
+int arr['A'];    //     -> 260 bytes
+```
+
+** It is important to note that the size should be constant **
+
 
 int n;
 cin>>n;
