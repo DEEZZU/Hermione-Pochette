@@ -144,12 +144,15 @@ int arr['A'];    //     -> 260 bytes
 
 ** It is important to note that the size should be constant **
 
+* Dynamic Declaration , using user input :
 
-int n;
-cin>>n;
-int arr[n]; // this doesn’t work in gcc 
-// dynamic : after compilation 
+```c++
 
+int n ;
+cin >> n ;
+int arr[n] ;        // this doesn’t work in gcc 
+                    // dynamic : after compilation 
+```
 in g++ error is not given : because memory size is inc so the compiler 
 compiler dependent 
 
