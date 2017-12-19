@@ -152,14 +152,16 @@ int n ;
 cin >> n ;
 int arr[n] ;        // this doesn’t work in gcc 
                     // dynamic : after compilation 
+                    // in g++ : error is not given : because memory size is inc so the compiler 
+                    // compiler dependent 
+
+int *arr = new int[n];
+             
 ```
-in g++ error is not given : because memory size is inc so the compiler 
-compiler dependent 
 
-dynamic array creation 
+** In C we have 'malloc' keyword **
 
-int *arr= new int[n] ;
-in c we have malloc 
+
 
 memory allocation 
 stack : function calling tym 
