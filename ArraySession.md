@@ -148,6 +148,7 @@ int arr['A'];    //     -> 260 bytes
 
 ```c++
 
+// Type 1 
 int n ;
 cin >> n ;
 int arr[n] ;        // this doesn’t work in gcc 
@@ -155,16 +156,30 @@ int arr[n] ;        // this doesn’t work in gcc
                     // in g++ : error is not given : because memory size is inc so the compiler 
                     // compiler dependent 
 
+
+// Type 2
 int *arr = new int[n];
              
 ```
 
 ** In C we have 'malloc' keyword **
 
+----
 
 
-memory allocation 
-stack : function calling tym 
+### Memory Allocation
+
+
+**_Segments and Memory Map_**
+
+Memory can be devided into 4 segments :
+  
+  *Code Segment
+  *Data Segment
+  *Stack Segment
+  *Extra Segment
+  
+1.  : function calling tym 
 heap : dynamic memory allocation : extra setgment 
 global : all prog var : data segment 
 
