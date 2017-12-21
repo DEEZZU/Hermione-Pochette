@@ -172,20 +172,21 @@ int *arr = new int[n];
 
 **_Segments and Memory Map_**
 
-Memory can be devided into 4 segments :
+Memory is devided into 4 segments :
   
-        *Code Segment*
+  *Code Segment*
 
-        *Data Segment*
+  *Data Segment*
 
-        *Stack Segment*
+  *Stack Segment*
 
-        *Extra Segment*
+  *Extra Segment*
 
 
 Understanding the mapping of memory allotted to Program :
 
-  1. Stack :  : function calling tym 
+
+  1. Stack :   : function calling tym 
 heap : dynamic memory allocation : extra setgment 
 global : all prog var : data segment 
 
