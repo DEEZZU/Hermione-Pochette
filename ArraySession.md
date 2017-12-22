@@ -185,7 +185,7 @@ Memory is devided into 4 segments :
 
 Understanding the mapping of memory allotted to Program :
 
-
+![image of Memory allotted to a program](https://github.com/DEEZZU/Hermione_Pochette/blob/master/Images/memoryMap.jpg)
   1. Stack :   : function calling tym 
 heap : dynamic memory allocation : extra setgment 
 global : all prog var : data segment 
