@@ -167,7 +167,7 @@ int *arr = new int[n];
 ----
 
 
-### Memory Allocation
+#### Memory Allocation
 
 
 **_Segments and Memory Map_**
@@ -183,32 +183,73 @@ Memory is devided into 4 segments :
   *Extra Segment*
 
 
-Understanding the mapping of memory allotted to Program :
+**Understanding the mapping of memory allotted to Program :**
 
 ![image of Memory allotted to a program](https://github.com/DEEZZU/Hermione_Pochette/blob/master/Images/memoryMap.jpg)
-  1. Stack :   : function calling tym 
-heap : dynamic memory allocation : extra setgment 
-global : all prog var : data segment 
-
-if the int arr[] is outside main , memory is given in data segment 
-all globals get 0 value
 
 
-int main()
-{
+```
+As given above , a program gets memory , and it has four bifurcation :
+  *Stack
+  *Heap
+  *Global Variables
+  *Program Code
+```
 
-int n ; in stack because in a function 
-int * arr = new int[] : heap 
+**1. Stack :**
+     
+     used at the tym of function calling 
+     is in the "Stack Segment" of the memory.
+     
+     
+**2. Heap :**
+     
+     dynamic memory allocation 
+     in "extra setgment" 
+     
+     
+**3. Global :**
+    
+     all program variables 
+     in "data segment"
+     Consider : if the  declaration "int arr[];" is outside main() (considering c++), memory is given in data segment 
+     all global variables get 0 value
 
-}
+**4. Program Code:**
 
+      code of the program 
+      in "code segment"
+      
 
-stack heap global 
+```c++
 
-sizeof(arr) : still gives pointer size 
-new : allocates n bytes , gives first address to int* are 
-int * arr is in stack 
+  int arr[maxSize];                  // -> in Global Variable
+  
+  int main()
+  {
 
+    int n ;                          // -> in Stack ( because main() is a function )
+    int * arr = new int[n];          // -> in Heap 
+    
+  }
+  
+```
+ 
+``` 
+*Some Important Noteworthy Points in the example :*
+   
+If i print ;
+
+        sizeof(arr);  
+        
+this would still give pointer size as output.
+
+Why ?
+The operator , "new" , it allocates n bytes , gives first address to int* "arr" .
+    
+Now , an important point to be noted , where is int* arr ?? 
+"int* arr is in stack" and , the array of n bytes is in heap !!!
+```
 
 initialization 
  values at the tym of declaration
