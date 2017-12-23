@@ -250,6 +250,7 @@ The operator , "new" , it allocates n bytes , gives first address to int* "arr" 
 Now , an important point to be noted , where is int* arr ?? 
 "int* arr is in stack" and , the array of n bytes is in heap !!!
 ```
+____
 
 **_Array Initialization_** 
 
@@ -328,6 +329,8 @@ Consider an example :
                                       // it is a possibility that it gives runtime error
                                       // segmentation fault  : u have moved out of the memory 
 ```
+
+----
 
 **_Dynamic Deallocation_**
 
