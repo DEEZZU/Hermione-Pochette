@@ -251,26 +251,33 @@ Now , an important point to be noted , where is int* arr ??
 "int* arr is in stack" and , the array of n bytes is in heap !!!
 ```
 
-initialization 
- values at the tym of declaration
+**_Array Initialization_** 
 
-int a[10]={1,2,3,4,5,….}; // initialisation -> compile 
-a[0]=1; // assignment -> at tym of execution
+```
+values at the tym of declaration
+these are assigned at the time of compilation
+```
 
+```c++
 
-int a[5]={1,2,3};
-what is at 4 and 5 :
-
-0
-garbage
-error
-3,3
-1,2
-cant say
-compiler error
+int a[10] = {1,2,3,4,5,….};         // initialisation
+a[0]=1;                             // this is assignment -> value given at time of execution
 
 
-the compiler would by default 0 
+int a[5]={1,2,3};                   // this statement initializes first 3 positions but for position 4 and 5 we get '0'
+```
+
+
+_Ques: What is at a[4] and a[5] ?
+      a) 0
+      b) garbage
+      c) error
+      d) 3,3
+      e) 1,2
+      f) cant say
+      g) compiler error_
+
+Ans : **a)** , reason : The Compiler would by default set them to 0. 
 
 its a special case :
 
