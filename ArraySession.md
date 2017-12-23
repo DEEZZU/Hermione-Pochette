@@ -264,7 +264,8 @@ int a[10] = {1,2,3,4,5,….};         // initialisation
 a[0]=1;                             // this is assignment -> value given at time of execution
 
 
-int a[5]={1,2,3};                   // this statement initializes first 3 positions but for position 4 and 5 we get '0'
+int a[5]={1,2,3};                   // this statement initializes first 3 positions but 
+                                    // for position 4 and 5 we get '0'
 ```
 
 
@@ -279,43 +280,34 @@ _Ques: What is at a[4] and a[5] ?
 
 Ans : **a)** , reason : The Compiler would by default set them to 0. 
 
-its a special case :
 
-int a[5]={0};
-all values get 0 
- int a[5] ={};
-it gets all 0 no error 
+```c++
 
-int a[]={1,2}; <- allowed  // all static example 
+int a[5] = {0} ;                   // all values get 0 
+int a[5] = {} ;                    // it gets all 0 ; no error 
+int a[] = {1,2} ;                  // all static example <- allowed
+int a[]{1,2,3};                    // this is new and valid initialisation in c++ newer version 
+                                   // g++11 and g++14 works
 
-int a[]{1,2,3};
-this is new and valid initialisation in c++ newer version 
-g++ 11 and g++14 works
- 
-SIZEOF(“A”) : 2
-
-2 (STRINGS ARE ALWAYS NULL TERMINATED)
- COMPILER
-1
-4 
+``` 
 
 
-int a[‘a’]
-sizeof(1); : 4 
-sizeof(‘A’) : 4 : LOGICALLY :(MAC GIVES 1)
- 
-1) 4,4
- 1,4
-COMPILER
+_Ques : SIZEOF(“A”) ? 
+       a) 2 
+       b) 1
+       c) 4_
+       
+Ans : **a)** reason : STRINGS ARE ALWAYS NULL TERMINATED
 
 
-SIZEOF (DATATYPE)
+_Ques :int a[“a”] ?_
+  
+Ans : **This generates error.**
 
-int a[“a”] <- error
 
+**_Element Access_**
 
-Element Access
-
+```
 a[0] <- first element
 a[3/2] <- 2 nd element
 a[3.0/2] <- error  (you can not return float )
@@ -330,7 +322,7 @@ a[-1]=*(a+(-1))
 java gives array out of bound exception 
 it is a possibility that it gives runtime error
 segmentation fault  : u have moved out of the memory 
- 
+``` 
 
 if u allocate using new : but a good practice is to deallocate yourself : delete 
 
