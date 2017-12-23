@@ -307,22 +307,29 @@ Ans : **This generates error.**
 
 **_Element Access_**
 
+```c++
+a[0];                                 // <- first element
+a[3/2];                               // <- second element
+a[3.0/2];                             // <- error (you can not return float )
+a[-1];                                // <- valid 
+
 ```
-a[0] <- first element
-a[3/2] <- 2 nd element
-a[3.0/2] <- error  (you can not return float )
 
-a[-1] <- valid 
-index should be integer
+```
+Important points to note:
 
-a[2]= *(a+2)
-a[-1]=*(a+(-1))
-^ this gives garbage value 
+Index should be integer 
 
-java gives array out of bound exception 
-it is a possibility that it gives runtime error
-segmentation fault  : u have moved out of the memory 
-``` 
+What does a[x] means ? 
+Consider an example : 
+         a[2]= * (a+2);
+         a[-1] = * (a+(-1));          // this gives garbage value 
+                                      // java gives array out of bound exception 
+                                      // it is a possibility that it gives runtime error
+                                      // segmentation fault  : u have moved out of the memory 
+```
+
+**_Dynamic Deallocation_**
 
 if u allocate using new : but a good practice is to deallocate yourself : delete 
 
