@@ -353,6 +353,10 @@ delete[ ] arr;
 ^ check for yourself
 arr=&a; <- does obviously give error
 
+----
+
+**_Memory Leak_**
+
 memory leak : memory was allocated but os was not notified that it is free
 
 it is not accessible
@@ -369,6 +373,9 @@ return 1;
 } 
 
 memory leak 
+----
+
+**Call By Value/ Reference/ Pointer** 
 
 in c there is no call by reference
 
@@ -410,9 +417,10 @@ practical :
     *b1=temp;
     cout  << num1 << num2 ;
     
-    
-    cout << sizeof((int)('A')) << " " << sizeof("A") << " " << ab << endl;
-    cout << "sizeof(a)" << sizeof(a)/sizeof(a[0]) ;
+----
+
+cout << sizeof((int)('A')) << " " << sizeof("A") << " " << ab << endl;
+cout << "sizeof(a)" << sizeof(a)/sizeof(a[0]) ;
 
 
 TEMPLATES CAN BE USED TO SEND SIZE 
