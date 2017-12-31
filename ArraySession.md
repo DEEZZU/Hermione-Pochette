@@ -334,13 +334,14 @@ Consider an example :
 
 **_Dynamic Deallocation_**
 
+int * a ? what happens to it : it might get the dangling pointer or if the compiler is optimised it might get null 
 if u allocate using new : but a good practice is to deallocate yourself : delete 
 
 delete[] a; <- how does operating system know how much size is to be deleted : just previous location has  size stored 
 and marks it free 
 
 ^ dynamic deallocation 
-int * a ? what happens to it : it might get the dangling pointer or if the compiler is optimised it might get null 
+
 
 int * a does not get deleted but the heap is notified that it is free 
 int * a is itself a static variable in memory
@@ -404,8 +405,6 @@ int fun(int* a , int* b);
 
 ----
 
-cout << sizeof((int)('A')) << " " << sizeof("A") << " " << ab << endl;
-cout << "sizeof(a)" << sizeof(a)/sizeof(a[0]) ;
 
 
 TEMPLATES CAN BE USED TO SEND SIZE 
@@ -435,4 +434,7 @@ IT IS CONSTANT
     *a1=*b1;
     *b1=temp;
     cout  << num1 << num2 ;
+    cout << sizeof((int)('A')) << " " << sizeof("A") << " " << ab << endl;
+cout << "sizeof(a)" << sizeof(a)/sizeof(a[0]) ;
+
 ```    
