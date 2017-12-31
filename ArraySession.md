@@ -374,46 +374,34 @@ return 1;
 
 **Call By Value/ Reference/ Pointer** 
 
-in c there is no call by reference
+* In c : there is no call by reference, only call by value and pointer.
+* In c++ : We have call by value , call by reference and call by pointer .
 
-call by value is in c 
-
-in c++ : difference btw call by reference and call by pointer 
+Understanding the difference ;
 
 CALL BY VALUE :
+*actual arguments' values get copied into the formal ones
 
-doesn’t exchange value
-
-call by reference:
-
-aliases of the variables 
-no new memory is allocated 
+CALL BE REFERENCE :
+*aliases of the variables 
+*no new memory is allocated, as in the actual arguments are just another alias of the formal argument variable 
 
 
 CALL BY POINTER :
+*pointer variables are declared 
+*they capture the address of the variables 
+**_IT IS CALL BY VALUE BECAUSE VALUE OF ADDRESS IS BEING COPIED_** 
 
+```c++
 
-POINTER HAS NEW MEMORY ALLOCATED  FOR STORING THE ADDRESS OF THE A AND B 
+// Declaration of the three types of call 
 
-IT IS CALL BY VALUE BECAUSE VALUE OF ADDRESS IS BEING COPIED 
+int fun(int a, int b);
+int fun(int &a , int &b);
+int fun(int* a , int* b);
 
+```
 
-practical :
- int a['A'] = {0};
-    int ab = 'A';
-    num1=5;
-    num2=6;
-    
-    int *a1=&num1;
-    int *b1=&num2;
-    int temp=0;
-    
-    temp=(*a1);
-    
-    *a1=*b1;
-    *b1=temp;
-    cout  << num1 << num2 ;
-    
 ----
 
 cout << sizeof((int)('A')) << " " << sizeof("A") << " " << ab << endl;
@@ -431,3 +419,20 @@ INT S= SIZE OF(ARR )/SIZE OF(ARRO)
 WE CAN NOT USE ARRAY AS AN ASSIGNMENT 
 IT IS CONSTANT 
 
+```C++
+    
+    int a['A'] = {0};
+    int ab = 'A';
+    num1=5;
+    num2=6;
+    
+    int *a1=&num1;
+    int *b1=&num2;
+    int temp=0;
+    
+    temp=(*a1);
+    
+    *a1=*b1;
+    *b1=temp;
+    cout  << num1 << num2 ;
+```    
