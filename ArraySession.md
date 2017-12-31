@@ -357,22 +357,19 @@ arr=&a; <- does obviously give error
 
 **_Memory Leak_**
 
-memory leak : memory was allocated but os was not notified that it is free
+* A memory leak occurs when the memory was allocated but os was not notified that it is free now 
+* and since nobody freed that area , it is not accessible
+* Example : suppose u returned without deleting a pointer assigned memory in the function 
 
-it is not accessible
-
-suppose u returned without deleting 
-
-eg :
+```c++
 
 int fun()
 {
 int *arr=new int[5];
 return 1;
-
 } 
+```
 
-memory leak 
 ----
 
 **Call By Value/ Reference/ Pointer** 
