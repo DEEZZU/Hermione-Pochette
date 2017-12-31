@@ -334,7 +334,7 @@ Consider an example :
 
 **_Dynamic Deallocation_**
 
-int * a ? what happens to it : it might get the dangling pointer or if the compiler is optimised it might get null 
+So when u declare int * a ? what happens to it : it might get the dangling pointer or if the compiler is optimised it might get null 
 if u allocate using new : but a good practice is to deallocate yourself : delete 
 
 delete[] a; <- how does operating system know how much size is to be deleted : just previous location has  size stored 
