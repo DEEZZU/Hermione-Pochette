@@ -431,7 +431,7 @@ IT IS CONSTANT
     
     temp=(*a1);
     
-    *a1=*b1;
+    *a1 =*b1;
     *b1=temp;
     cout  << num1 << num2 ;
     cout << sizeof((int)('A')) << " " << sizeof("A") << " " << ab << endl;
