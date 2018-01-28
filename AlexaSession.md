@@ -1,4 +1,12 @@
-AMAZON ALEXA DEVELOPER DAY 
+
+## AMAZON ALEXA DEVELOPER DAY 
+----
+
+Session Date : 27 th January 2018
+
+Session By : Aviral Aggarwal
+
+----
 
 amazon alexa dev perks : echo dot
 get 100 download
