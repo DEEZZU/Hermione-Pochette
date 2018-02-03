@@ -8,8 +8,11 @@ Session By : Aviral Aggarwal
 
 ----
 
-amazon alexa dev perks : echo dot
-get 100 download
+If you are still thinking why Alexa Skill development should be on your list , So here is a reason for you :
+  
+ * Amazon rewards your effort with their cool "Alexa Shirt"  upon publishing your skill (that too after they certify it)
+ 
+ * Also , if you are able to get 100 enables , once your skill is live within 30 days , you get an ECHO DOT
 
 
 var myObj = { "name":"John", "age":31, "city":"New York" }; (key,value)
