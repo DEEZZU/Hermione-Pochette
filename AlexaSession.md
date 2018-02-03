@@ -8,12 +8,23 @@ Session By : Aviral Aggarwal
 
 ----
 
-If you are still thinking why Alexa Skill development should be on your list , So here is a reason for you :
-  
- * Amazon rewards your effort with their cool "Alexa Shirt"  upon publishing your skill (that too after they certify it)
- 
- * Also , if you are able to get 100 enables , once your skill is live within 30 days , you get an ECHO DOT
+#### Why develop a Skill ?
 
+This is one doubt that we hear around us mostly ;
+If you are amongst those STILL thinking why Alexa Skill development should be on your list , 
+So here is a reason for you :
+  
+ *Amazon rewards your effort with their cool "Alexa Shirt"  upon publishing your skill (that too after they certify it)*
+ 
+ *Also , if you are able to get 100 enables , once your skill is live within 30 days , you get an ECHO DOT*
+
+-----
+
+#### What is Amazon Alexa Skill ? 
+
+-----
+
+#### The Basic to understand : JSON 
 
 var myObj = { "name":"John", "age":31, "city":"New York" }; (key,value)
 var myJSON = JSON.stringify(myObj);
@@ -24,6 +35,10 @@ amazon alexa is json enabled device
 json->lambda function
 
 get/post reqst-> server -> json response -> parsed 
+
+-----
+
+#### Setting up your Developer Console and AWS Account 
 
 Name :Faber Castelle
 Innovocation name : Color Picker
