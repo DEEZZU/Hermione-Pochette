@@ -22,6 +22,8 @@ So here is a reason for you :
 
 #### What is Amazon Alexa Skill ? 
 
+Alexa is an intelligent personal assistant developed by Amazon, first used in the Amazon Echo and the Amazon Echo Dot devices developed by Amazon Lab126.
+
 -----
 
 #### The Basic to understand : JSON 
